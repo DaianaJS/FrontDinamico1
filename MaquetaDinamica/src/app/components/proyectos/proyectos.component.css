@@ -1,0 +1,102 @@
+*{
+  overflow-x: hidden
+}
+body{
+  background-color: #f4e7e6;
+  overflow-x: hidden;
+}
+#proyectito{
+  margin-top: 10%;
+  box-shadow: 10px 10px 30px #dc758f;
+  width: 75%;
+  margin-bottom: 5%;
+}
+#proyectos{
+text-align: center;
+margin-top: 3%;
+font-style: italic;
+text-decoration: underline;
+margin-left: 5%;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+.col-7{
+  margin-top:20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+#pff{
+  text-align: center;
+  padding-left: 5%;
+  font-family: monospace;
+}
+p{
+  font-family:monospace;
+}
+#EditProy{
+  border-radius: 100%;
+  margin-left: 2%;
+  border-color: black;
+  }
+  .btn-dark{
+    --bs-btn-bg: #dc758f;
+    --bs-btn-hover-bg: #514065;
+    --bs-btn-active-bg: #cb3f59;
+    }
+.modal-header{
+      background-color: #dc758f;
+      color: white;
+    }
+    .modal-body{
+      padding:4%;
+     }
+     .modal-footer{
+      padding:0;
+      padding-top: 2%;
+      margin-bottom: -1%;
+      margin-left:-4%;
+     }
+.btn.btn-primary{
+      background-color: #dc758f;
+      --bs-btn-border-color: #dc758f;
+      --bs-btn-active-border-color: #dc758f;
+      --bs-btn-hover-bg: white;
+      --bs-btn-hover-border-color: black;
+      --bs-btn-active-bg: white;
+      --bs-btn-hover-color: black;
+      --bs-btn-active-color: #dc758f;
+      font-family: monospace;
+    }
+    .btn-secondary{
+      --bs-btn-border-color: #dc758f;
+      --bs-btn-color: #dc758f;
+      --bs-btn-hover-color: white;
+      --bs-btn-hover-bg: #dc758f;
+      --bs-btn-hover-border-color: black;
+      --bs-btn-active-bg: #dc758f;
+      --bs-btn-bg:white;
+      font-family: monospace;
+      font-size: large;
+    }
+.form-label {
+      margin-bottom: 0.5rem;
+      padding-top: 1rem;
+      font-family: monospace;
+      font-weight: 600;
+      font-size: x-large;
+    }
+.fs-5 {
+      font-size: 1.25rem!important;
+      font-family: monospace;
+  }
+  input {
+    width: 85%;
+    text-align: center;
+    font-family: monospace;
+}
+#url1{
+  margin-left: 12%;
+    margin-top:-9.5%;
+    width:100%;
+  }

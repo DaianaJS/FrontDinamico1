@@ -1,1 +1,43 @@
-<p>proyectos works!</p>
+<body>
+  <h1 id="proyectos">Proyectos Realizados<button type="button" class="btn btn-dark" data-bs-toggle="modal"
+      data-bs-target="#proyectosModal" id="EditProy"><i class="fa-solid fa-pen-ruler"></i></button></h1>
+  <div class="row">
+    <div class="col-7">
+      <h2 id="pff"><strong>Proyecto Final - Argentina Programa #YoProgramo</strong></h2>
+      <p>Curriculum Vitae/Portfolio Web. Se trabajó con HTML, CSS, Javascript, Angular, NodeJs, Bootstrap,
+        Java, MySQL.</p>
+    </div>
+    <div class="col-5">
+      <img src="/assets/img/proyecto.png" class="img-fluid img-proyecto" id="proyectito">
+    </div>
+  </div>
+</body>
+<!--Modal edicion proyectos-->
+<div class="modal fade" id="proyectosModal" tabindex="-1" aria-labelledby="proyectosModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="proyectosModalLabel">Editar sección "Proyectos"</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="imgProyecto" class="form-label"> URL: </label>
+            <section id="url1">
+            <input type="url" placeholder="Inserte imágenes de sus proyectos" id="imgProyecto" name="imgProyecto"
+              required>
+          </section>
+            <div class="mb-3">
+              <label for="textoProyecto" class="form-label">Descripción del proyecto: </label>
+              <textarea class="form-control" id="textoProyecto" rows="8"></textarea>
+            </div>
+          </div>
+        </form>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Guardar cambios</button>
+        </div>
+      </div>
+    </div>
+  </div>

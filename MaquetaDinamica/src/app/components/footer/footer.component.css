@@ -1,0 +1,9 @@
+body{
+  overflow-x: hidden;
+}
+.row{
+  background-color: #f4e7e6;
+  text-align: center;
+  font-family: monospace;
+  padding-top: 1%;
+}

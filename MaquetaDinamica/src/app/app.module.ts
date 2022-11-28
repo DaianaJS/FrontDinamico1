@@ -10,6 +10,7 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
 import { HardskillsComponent } from './components/hardskills/hardskills.component';
 import { SoftskillsComponent } from './components/softskills/softskills.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
     HardskillsComponent,
     SoftskillsComponent,
     ProyectosComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

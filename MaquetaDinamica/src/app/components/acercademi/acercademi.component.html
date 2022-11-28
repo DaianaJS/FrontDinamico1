@@ -1,1 +1,51 @@
-<p>acercademi works!</p>
+<body>
+<div class="row">
+  <div class="col-4">
+      <img src="/assets/img/acdm.png" class="img-fluid" id="foto">
+  </div>
+  <div class="col-8">
+      <span>
+          <h1 id="aboutme"> Acerca de mí <button type="button" class="btn btn-dark" data-bs-toggle="modal"
+                  data-bs-target="#acercaModal" id="EditSobreMi">
+                  <i class="fa-solid fa-pen-ruler"></i>
+              </button>
+          </h1>
+          <p id="aboutmeP">
+              Soy una persona joven con muchas ganas de trabajar, creativa, con facilidad para aprender,
+              comprometida y responsable.<br>
+              Una técnica radióloga expandiendo sus horizontes en el mundo de la programación.<br>
+              Amante de los videojuegos buscando cumplir el sueño de desarrollar alguno.</p>
+      </span>
+  </div>
+</div>
+</body>
+<!--Modal Acerca de Mi-->
+<div class="modal fade" id="acercaModal" tabindex="-1" aria-labelledby="acercaModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h1 class="modal-title fs-5" id="acercaModalLabel">Editar sección "Acerca de mí"</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <form>
+                  <div class="mb-3">
+                      <label for="imgAcercaDeMi" class="form-label"> URL:</label>
+                      <section id="url">
+                      <input type="url" placeholder="Inserte logo para la sección'Acerca de mí'"id="imgAcercaDeMi"
+                          name="imgAcercaDeMi">
+                      </section>
+                          </div>
+                      <div class="mb-3">
+                          <label for="textoAcercaDeMi" class="form-label">Descripción de sección "Acerca de mi": </label>
+                          <textarea class="form-control" id="textoAcercaDeMi" rows="8"></textarea>
+                      </div>
+                    </form>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Guardar cambios</button>
+          </div>
+      </div>
+  </div>
+</div>
