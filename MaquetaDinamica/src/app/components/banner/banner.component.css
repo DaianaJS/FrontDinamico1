@@ -89,4 +89,8 @@ input{
   overflow-x: hidden;
   overflow-y: hidden;
 }
-
+#url{
+  margin-left: 11%;
+  margin-top:-9.5%;
+  width:100%;
+}

@@ -68,7 +68,7 @@ input {
   overflow-x: hidden;
   overflow-y: hidden;
 }
-body{
+section{
   background-color:#f4e7e6;
 }
 h2,h3{
@@ -76,12 +76,12 @@ h2,h3{
   font-style: italic;
   font-family: monospace;
   font-weight: 500;
+  font-size: xx-large;
   margin-top: 2%;
   overflow-x: hidden;
 }
 p{
   margin-left: 5%;
-  font-style: italic;
   font-family: monospace;
   font-size: x-large;
   overflow-x: hidden;

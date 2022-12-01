@@ -1,0 +1,19 @@
+section{
+  overflow-x: hidden;
+  background-color:#dc758f;
+
+}
+.btn-group{
+margin-left: 0%;
+}
+.btn.btn-primary{
+  background-color: #dc758f;
+  border-color: transparent;
+  border-right-color: black;
+  font-family: monospace;
+  font-weight: 200;
+  border-radius: 2%;
+}
+#badm{
+  border-left-color: black;
+}
