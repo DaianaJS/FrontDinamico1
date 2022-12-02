@@ -1,0 +1,94 @@
+img{
+  width: 61%;
+  margin-left: 30%;
+  margin-top: 18%;
+}
+section{
+  background-color: #f4e7e6;
+  overflow-x: hidden;
+}
+
+h1{
+  text-align: center;
+    margin-top: 3%;
+    font-style: italic;
+    text-decoration: underline;
+    margin-left: 8%;
+}
+h2{
+font-family: monospace;
+font-weight: 600;
+text-decoration: underline;
+margin-top: 3%;
+padding-left: 6%;
+}
+
+h3{
+font-family: monospace;
+font-weight: 10;
+margin-top:-1%;
+padding-left: 6%;
+}
+
+.btn-dark{
+  --bs-btn-bg: #dc758f;
+  --bs-btn-hover-bg: #514065;
+  --bs-btn-active-bg: #cb3f59;
+  }
+#datosModalLabel{
+  text-decoration: none;
+  font-family: monospace;
+  font-style: normal;
+}
+.modal-header{
+    background-color: #dc758f;
+    color: white;
+  }
+.btn.btn-primary{
+    background-color: #dc758f;
+    --bs-btn-border-color: #dc758f;
+    --bs-btn-active-border-color: #dc758f;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-border-color: black;
+    --bs-btn-active-bg: white;
+    --bs-btn-hover-color: black;
+    --bs-btn-active-color: #dc758f;
+    font-family: monospace;
+  }
+  .btn-secondary{
+    --bs-btn-border-color: #dc758f;
+    --bs-btn-color: #dc758f;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #dc758f;
+    --bs-btn-hover-border-color: black;
+    --bs-btn-active-bg: #dc758f;
+    --bs-btn-bg:white;
+    font-family: monospace;
+    font-size: large;
+  }
+.form-label {
+    margin-bottom: 0.5rem;
+    padding-top: 1rem;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: x-large;
+  }
+.fs-5 {
+    font-size: 1.25rem!important;
+    font-family: monospace;
+}
+input {
+  width: 85%;
+  text-align: center;
+  font-family: monospace;
+}
+#url{
+margin-left: 12%;
+margin-top:-9.5%;
+width:90%;
+}
+#EditDatos{
+    border-radius: 100%;
+    margin-left: 2%;
+    border-color: black;
+  }

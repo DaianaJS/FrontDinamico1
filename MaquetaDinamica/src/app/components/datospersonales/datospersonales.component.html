@@ -1,0 +1,46 @@
+<section>
+      <div class="row">
+        <div class="col-4">
+          <img src="../../../assets/img/fotomia.png">
+        </div>
+        <div class="col-8">
+          <h1>Datos Personales<button type="button" class="btn btn-dark" data-bs-toggle="modal"
+            data-bs-target="#datosModal" id="EditDatos">
+            <i class="fa-solid fa-pen-ruler"></i>
+        </button> </h1>
+          <h2>Nombre y apellido:</h2><h3>Daiana Judith Sotelo.</h3>
+          <h2>Edad:</h2><h3>23 años.</h3>
+          <h2>Lugar de residencia:</h2><h3> Formosa Capital, Argentina.</h3>
+          <h2>Número de contacto:</h2><h3> +543704007158</h3>
+        </div>
+      </div>
+</section>
+<div class="modal fade" id="datosModal" tabindex="-1" aria-labelledby="datosModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h1 class="modal-title fs-5" id="datosModalLabel">Editar sección "Datos Personales"</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <form>
+                  <div class="mb-3">
+                      <label for="imgDatos" class="form-label"> URL:</label>
+                      <section id="url">
+                      <input type="url" placeholder="Inserte su foto"id="imgDatos"
+                          name="imgDatos">
+                      </section>
+                          </div>
+                      <div class="mb-3">
+                          <label for="textoDatos" class="form-label">Descripción de sección "Datos Personales": </label>
+                          <textarea class="form-control" id="textoDatos" rows="8"></textarea>
+                      </div>
+                    </form>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Guardar cambios</button>
+          </div>
+      </div>
+  </div>
+</div>

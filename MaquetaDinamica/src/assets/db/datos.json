@@ -1,0 +1,90 @@
+{
+  "nombre":"Daiana Judith",
+  "apellido":"Sotelo",
+  "edad": 23,
+  "residencia":"Formosa Capital, Argentina",
+  "telefono": 543704007158,
+  "foto":"src/assets/img/fotomia.png",
+  "textosobremi":"Soy una persona joven con muchas ganas de trabajar, creativa, con facilidad para aprender, comprometida y responsable. Una técnica radióloga expandiendo sus horizontes en el mundo de la programación. Amante de los videojuegos buscando cumplir el sueño de desarrollar alguno.",
+
+  "estudios":[
+    {
+      "id":1,
+      "titulo":"Desarrollador Web Fullstack Jr.",
+      "institucion":"Segunda etapa del Plan Argentina Programa - #YoProgramo",
+      "inicio": "Agosto 2022",
+      "fin": "Enero 2023"
+    },
+    {
+      "id":2,
+      "titulo":"Bases de la programación",
+      "institucion":"Codo a Codo 4.0 Inicial",
+      "inicio": "Agosto 2022",
+      "fin": "Diciembre 2022"
+    },
+    {
+      "id":3,
+      "titulo":"Programación desde 0",
+      "institucion":"EGG",
+      "inicio": "Junio 2022",
+      "fin": "Julio 2022"
+    },
+    {
+      "id":4,
+      "titulo":"Desarrollador Web Fullstack Jr.",
+      "institucion":"Primera etapa del Plan Argentina Programa - #SéProgramar",
+      "inicio": "Marzo 2022",
+      "fin": "Junio 2022"
+    },
+    {
+      "id":5,
+      "titulo":"Técnico Superior en Radiología",
+      "institucion":"Instituto Superior Privado Santa Rita",
+      "inicio": "Febrero 2017",
+      "fin": "Diciembre 2019"
+    },
+    {
+      "id":6,
+      "titulo":"Título Secundario. Modalidad: Economía y Gestión de las Organizaciones",
+      "institucion":"E.P.E.S N°10 'Dr. Carlos Pellegrini'",
+      "inicio": "Marzo 2011",
+      "fin": "Diciembre 2016"
+    },
+    {
+      "id":7,
+      "titulo":"Idioma Inglés",
+      "institucion":"Academia 'WINGS'",
+      "inicio": 2008,
+      "fin": 2015
+    }
+  ],
+
+  "experiencia":[
+    {
+      "id":1,
+      "puesto":"Niñera",
+      "empresa":"Autónomo",
+      "inicio": 2016,
+      "fin":2021,
+      "descripcion":"Cuidado de niños de 10 meses de edad, 5 y 10 años"
+    },
+    {
+      "id":2,
+      "puesto":"Técnica Radióloga",
+      "empresa":"Sanatorio 'Gonzalez Lelong'",
+      "inicio":"Julio 2019",
+      "fin":"Agosto 2019",
+      "descripcion":"Prácticas Profesionalizantes. Manejo del equipo de rayos x. Realizando toma de radiografías de: Miembros superiores, miembros inferiores, cráneo, torax, columna cervical, torácica y lumbosacra. Edición e impresión de radiografías. Manejo de datos de obras sociales de los pacientes y solicitudes de las mismas"
+    }
+  ],
+
+  "proyecto":[
+    {
+      "id":1,
+      "tituloproyecto":"Proyecto Final - Argentina Programa #YoProgramo",
+      "descripcion":"Curriculum Vitae/Portfolio Web. Se trabajó con HTML, CSS, Javascript, Angular, NodeJs, Bootstrap, Java, MySQL.",
+      "imagenproyecto": "src/assets/img/proyecto.png"
+    }
+  ]
+
+}

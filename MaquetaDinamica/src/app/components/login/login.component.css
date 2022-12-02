@@ -1,0 +1,80 @@
+.btn{
+  font-size: large;
+  --bs-btn-padding-x: 0.75rem;
+  --bs-btn-padding-y: 0.50rem;
+  --bs-btn-font-family: monospace;
+  --bs-btn-font-weight: 20%;
+  --bs-btn-line-height: 1.5;
+  --bs-btn-bg: transparent;
+  --bs-btn-border-width: 1px;
+  --bs-btn-border-radius: 0.375rem;
+}
+.btn.btn-primary{
+  background-color: #dc758f;
+  --bs-btn-border-color: #dc758f;
+  --bs-btn-active-border-color: #dc758f;
+  --bs-btn-hover-bg: white;
+  --bs-btn-hover-border-color: black;
+  --bs-btn-active-bg: white;
+  --bs-btn-hover-color: black;
+  --bs-btn-active-color: #dc758f;
+  font-family: monospace;
+}
+.btn-secondary{
+  --bs-btn-border-color: #dc758f;
+  --bs-btn-color: #dc758f;
+  --bs-btn-hover-color: white;
+  --bs-btn-hover-bg: #dc758f;
+  --bs-btn-hover-border-color: black;
+  --bs-btn-active-bg: #dc758f;
+  font-family: monospace;
+  font-size: large;
+}
+.form-label {
+  margin-bottom: 0.5rem;
+  padding-left: 0.1rem;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: x-large;
+  font-size: large;
+}
+.fs-5 {
+  font-size: 1rem!important;
+  font-family: monospace;
+}
+.modal-header{
+  background-color: #dc758f;
+  color: white;
+}
+img{
+  width: 2.5rem;
+  margin-right: 1rem;
+}
+input{
+  margin-left: -0%;
+  margin-top: -1%;
+  width: 85%;
+  text-align: center;
+  font-family: monospace;
+}
+.modal-body{
+  padding-bottom: 0;
+}
+#exampleInputEmail1{
+  width: 97%;
+  margin-bottom: 2%;
+}
+#exampleInputPassword1{
+  width: 97%;
+  margin-bottom: 2%;
+}
+.btn[_ngcontent-fuk-c16] {
+  font-size: 75%;
+}
+.btn.btn-outline-light{
+  size: 11px;
+}
+*{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}

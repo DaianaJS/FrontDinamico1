@@ -12,6 +12,10 @@ import { SoftskillsComponent } from './components/softskills/softskills.componen
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AccesosComponent } from './components/accesos/accesos.component';
+import { IndexComponent } from './components/index/index.component';
+import { LoginComponent } from './components/login/login.component';
+import { LogoutComponent } from './components/logout/logout.component';
+import { DatospersonalesComponent } from './components/datospersonales/datospersonales.component';
 
 
 @NgModule({
@@ -27,6 +31,10 @@ import { AccesosComponent } from './components/accesos/accesos.component';
     ProyectosComponent,
     FooterComponent,
     AccesosComponent,
+    IndexComponent,
+    LoginComponent,
+    LogoutComponent,
+    DatospersonalesComponent,
   ],
   imports: [
     BrowserModule,
